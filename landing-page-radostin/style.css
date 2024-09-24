@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+}
+
+.dasrado-tr-br-navbar{
+  background: #ffffff8a;
+}
+
+.dasrado-animation-button{
+  /*transition: .2s cubic-bezier(.175, .885, .32, 2.975);*/
+  transition: all .2s ease;
+}
+
+.dasrado-animation-button:active{
+  transform: scale(0.90);
+}
+
+.dasrado-disabled-button:hover{
+  cursor: not-allowed;
+}
