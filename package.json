@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "vite build --base=/landing-page-radostin/",
+    "preview": "vite preview --base=/landing-page-radostin/"
   },
   "devDependencies": {
     "alpinejs": "^3.14.1",
