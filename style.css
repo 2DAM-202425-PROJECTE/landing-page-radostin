@@ -24,3 +24,7 @@ html{
 .dasrado-disabled-button:hover{
   cursor: not-allowed;
 }
+
+.dasrado-hero{
+  margin-top: 40px;
+}
