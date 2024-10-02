@@ -6,6 +6,11 @@ html{
   scroll-behavior: smooth;
 }
 
+.dasrado-navbar-logo{
+  height: 40px;
+  margin-left: 20px;
+}
+
 .dasrado-tr-br-navbar{
   background: rgba(255, 255, 255, 0.58) !important;
   backdrop-filter: blur(8px);
@@ -27,4 +32,14 @@ html{
 
 .dasrado-hero{
   margin-top: 40px;
+  border-radius: 120px;
+}
+
+.dasrado_code_image{
+  height: 240px;
+  margin-top: 90px;
+}
+
+.dasrado-database-server-icon{
+  margin-top: 200px;
 }
